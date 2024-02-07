@@ -9,3 +9,4 @@ class TrendMakerServerApplication
 fun main(args: Array<String>) {
     runApplication<TrendMakerServerApplication>(*args)
 }
+
