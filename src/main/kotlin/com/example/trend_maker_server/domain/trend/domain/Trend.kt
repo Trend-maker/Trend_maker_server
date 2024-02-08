@@ -19,7 +19,7 @@ class Trend(
     val createdDate: LocalDateTime,
     var updatedDate: LocalDateTime, // 로컬 말고 한국 시간으로 저장해야함.
 
-    var likes: List<String> = arrayListOf(),
+    var recommendations: List<String> = arrayListOf(),
     var views: Int = 0
 ) {
 }
